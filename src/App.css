@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Didot', 'Bodoni MT', 'Playfair Display', 'Times New Roman', serif;
+  color: #f7f7f7;
+  background-color: #040404;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: inherit;
+  color: inherit;
+}
+
+#root {
+  height: 100%;
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.homepage h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+}
